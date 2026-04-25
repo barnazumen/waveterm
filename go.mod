@@ -27,3 +27,6 @@ require (
 	github.com/tklauser/numcpus v0.7.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 )
+
+// personal fork - tracking upstream wavetermdev/waveterm
+// last synced: 2024-05
