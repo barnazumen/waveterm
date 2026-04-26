@@ -30,3 +30,5 @@ require (
 
 // personal fork - tracking upstream wavetermdev/waveterm
 // last synced: 2024-05
+// note: go-sqlite3 requires CGO_ENABLED=1 at build time;
+//       remember to set CC if cross-compiling (e.g. CC=x86_64-linux-musl-gcc)
