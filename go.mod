@@ -32,3 +32,8 @@ require (
 // last synced: 2024-05
 // note: go-sqlite3 requires CGO_ENABLED=1 at build time;
 //       remember to set CC if cross-compiling (e.g. CC=x86_64-linux-musl-gcc)
+//
+// local dev build:
+//   CGO_ENABLED=1 go build ./...
+// cross-compile to linux/amd64 from macOS:
+//   CGO_ENABLED=1 GOOS=linux GOARCH=amd64 CC=x86_64-linux-musl-gcc go build ./...
